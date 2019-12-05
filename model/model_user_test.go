@@ -5,7 +5,7 @@ import (
 )
 
 /**
-构造体 类似于实体  项目中通常作为 数据库返回数据被装载使用  (Service层使用，将实体给与Controller)
+构造体 类似于实体  项目中通常作为 数据库返回数据被装载使用  (数据访问层层使用，将实体给与Controller)
 
 项目中通常使用beego的Rom工具，将SQL查询出来的信息直接指向 &User 的指针地址 （返回参数是[]User 创建：user := []User  QueryRows(&user)）
 */
